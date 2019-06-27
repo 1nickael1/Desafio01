@@ -12,7 +12,7 @@ const projects = [
   { id: 3, title: "Projeto 03", tasks: [] }
 ];
 
-//Middleware que chega se o projeto existe
+//Middleware que checa se o projeto existe
 
 function checkProjectExist(req, res, next) {
   const { id } = req.params;
